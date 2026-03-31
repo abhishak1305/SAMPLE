@@ -43,6 +43,18 @@
    
       A 0–n semaphore counts how many resource instances are available, and blocks processes when the count reaches 0.
    
-5)  
+5)  **Concurrent Processes** are processes that execute simultaneously or overlap in execution time, potentially interacting with shared resources.
+6)  **Co-operating Processes** is one that can affect or be affected by other processes while executing. These processes typically share data, communicate, or work together toward a common task.
+7)   A **mutex** (short for mutual exclusion) is a synchronization tool used to ensure that only one process or thread can access a                   critical section at a time.
+      **Mutex**
+      Only one process at a time
+      Simpler, strict locking mechanism
+      **Semaphore**
+      Can allow multiple processes (0 to n)
+      Uses a counter
 
-
+8) A **race** **condition** occurs when multiple processes access shared data simultaneously, leading to unpredictable and incorrect results.
+9) A **precedence graph** is a directed graph used to check whether a transaction schedule is conflict-serializable by detecting cycles.
+            How to check correctness
+            If the graph has no cycles → schedule is serializable (safe)
+            If the graph has a cycle → schedule is not serializable (unsafe)
