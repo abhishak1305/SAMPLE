@@ -1,9 +1,3 @@
-Here are the step-by-step solutions and explanations for every problem you provided. 
-
-In a few of these questions, you will notice that the exact mathematical result slightly differs from the provided multiple-choice options (which is quite common in exam test banks). I have provided the exact mathematical derivations and pointed out the closest or intended answers for those specific cases.
-
----
-
 ### **1. FCFS Scheduling**
 **Question:** Processes P1, P2, P3 with burst times 24 ms, 3 ms, 3 ms arrive at t=0 and are scheduled using FCFS. What is the average waiting time?
 **Step-by-Step:**
